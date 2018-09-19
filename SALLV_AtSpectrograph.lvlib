@@ -18,6 +18,13 @@
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="command_stopAllAxis.ctl" Type="VI" URL="../DataTypes/command_stopAllAxis.ctl"/>
+		<Item Name="detailedState.ctl" Type="VI" URL="../DataTypes/detailedState.ctl"/>
+		<Item Name="disperser.ctl" Type="VI" URL="../DataTypes/disperser.ctl"/>
+		<Item Name="disperserPosition.ctl" Type="VI" URL="../DataTypes/disperserPosition.ctl"/>
+		<Item Name="filter.ctl" Type="VI" URL="../DataTypes/filter.ctl"/>
+		<Item Name="filterPosition.ctl" Type="VI" URL="../DataTypes/filterPosition.ctl"/>
+		<Item Name="fwState.ctl" Type="VI" URL="../DataTypes/fwState.ctl"/>
+		<Item Name="gwState.ctl" Type="VI" URL="../DataTypes/gwState.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
@@ -37,6 +44,7 @@
 		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
 		<Item Name="logevent_timeout.ctl" Type="VI" URL="../DataTypes/logevent_timeout.ctl"/>
 		<Item Name="loopTime.ctl" Type="VI" URL="../DataTypes/loopTime.ctl"/>
+		<Item Name="summaryState.ctl" Type="VI" URL="../DataTypes/summaryState.ctl"/>
 		<Item Name="timestamp.ctl" Type="VI" URL="../DataTypes/timestamp.ctl"/>
 	</Item>
 	<Item Name="AtSpectrograph_Connect.vi" Type="VI" URL="../VIs/AtSpectrograph_Connect.vi"/>
