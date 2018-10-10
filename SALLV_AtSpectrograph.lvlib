@@ -5,6 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name=".ctl" Type="VI" URL="../DataTypes/.ctl"/>
+		<Item Name="DetailedState.ctl" Type="VI" URL="../DataTypes/DetailedState.ctl"/>
+		<Item Name="FwState.ctl" Type="VI" URL="../DataTypes/FwState.ctl"/>
+		<Item Name="GwState.ctl" Type="VI" URL="../DataTypes/GwState.ctl"/>
+		<Item Name="SummaryState.ctl" Type="VI" URL="../DataTypes/SummaryState.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
 		<Item Name="command_abort.ctl" Type="VI" URL="../DataTypes/command_abort.ctl"/>
@@ -18,13 +22,10 @@
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="command_stopAllAxis.ctl" Type="VI" URL="../DataTypes/command_stopAllAxis.ctl"/>
-		<Item Name="detailedState.ctl" Type="VI" URL="../DataTypes/detailedState.ctl"/>
 		<Item Name="disperser.ctl" Type="VI" URL="../DataTypes/disperser.ctl"/>
 		<Item Name="disperserPosition.ctl" Type="VI" URL="../DataTypes/disperserPosition.ctl"/>
 		<Item Name="filter.ctl" Type="VI" URL="../DataTypes/filter.ctl"/>
 		<Item Name="filterPosition.ctl" Type="VI" URL="../DataTypes/filterPosition.ctl"/>
-		<Item Name="fwState.ctl" Type="VI" URL="../DataTypes/fwState.ctl"/>
-		<Item Name="gwState.ctl" Type="VI" URL="../DataTypes/gwState.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
@@ -44,7 +45,6 @@
 		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
 		<Item Name="logevent_timeout.ctl" Type="VI" URL="../DataTypes/logevent_timeout.ctl"/>
 		<Item Name="loopTime.ctl" Type="VI" URL="../DataTypes/loopTime.ctl"/>
-		<Item Name="summaryState.ctl" Type="VI" URL="../DataTypes/summaryState.ctl"/>
 		<Item Name="timestamp.ctl" Type="VI" URL="../DataTypes/timestamp.ctl"/>
 	</Item>
 	<Item Name="AtSpectrograph_Connect.vi" Type="VI" URL="../VIs/AtSpectrograph_Connect.vi"/>
