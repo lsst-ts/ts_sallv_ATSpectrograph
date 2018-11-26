@@ -11,7 +11,6 @@
 		<Item Name="FilterPosition.ctl" Type="VI" URL="../DataTypes/FilterPosition.ctl"/>
 		<Item Name="FwState.ctl" Type="VI" URL="../DataTypes/FwState.ctl"/>
 		<Item Name="GwState.ctl" Type="VI" URL="../DataTypes/GwState.ctl"/>
-		<Item Name="SummaryState.ctl" Type="VI" URL="../DataTypes/SummaryState.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
 		<Item Name="command_abort.ctl" Type="VI" URL="../DataTypes/command_abort.ctl"/>
@@ -29,7 +28,6 @@
 		<Item Name="command_stopAllAxes.ctl" Type="VI" URL="../DataTypes/command_stopAllAxes.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
-		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
 		<Item Name="logevent_disperserInPosition.ctl" Type="VI" URL="../DataTypes/logevent_disperserInPosition.ctl"/>
 		<Item Name="logevent_errorCode.ctl" Type="VI" URL="../DataTypes/logevent_errorCode.ctl"/>
 		<Item Name="logevent_filterInPosition.ctl" Type="VI" URL="../DataTypes/logevent_filterInPosition.ctl"/>
@@ -106,7 +104,6 @@
 	<Item Name="ATSpectrograph_cancelCallback_command_stopAllAxesackcmd.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_command_stopAllAxesackcmd.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_filterInPosition.vi"/>
@@ -126,7 +123,6 @@
 	<Item Name="ATSpectrograph_cancelCallback_timestamp.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_timestamp.vi"/>
 	<Item Name="ATSpectrograph_checkCallbacks.vi" Type="VI" URL="../VIs/ATSpectrograph_checkCallbacks.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_filterInPosition.vi"/>
@@ -144,7 +140,6 @@
 	<Item Name="ATSpectrograph_flushSamplesEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_timeout.vi"/>
 	<Item Name="ATSpectrograph_getCurrentTime.vi" Type="VI" URL="../VIs/ATSpectrograph_getCurrentTime.vi"/>
 	<Item Name="ATSpectrograph_getEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_getEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_getEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_getEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_getEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_filterInPosition.vi"/>
@@ -191,7 +186,6 @@
 	<Item Name="ATSpectrograph_issueCommand_start.vi" Type="VI" URL="../VIs/ATSpectrograph_issueCommand_start.vi"/>
 	<Item Name="ATSpectrograph_issueCommand_stopAllAxes.vi" Type="VI" URL="../VIs/ATSpectrograph_issueCommand_stopAllAxes.vi"/>
 	<Item Name="ATSpectrograph_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_filterInPosition.vi"/>
@@ -252,7 +246,6 @@
 	<Item Name="ATSpectrograph_registerCallback_command_stopAllAxesackcmd.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_command_stopAllAxesackcmd.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_filterInPosition.vi"/>
@@ -284,7 +277,6 @@
 	<Item Name="ATSpectrograph_salCommander_start.vi" Type="VI" URL="../VIs/ATSpectrograph_salCommander_start.vi"/>
 	<Item Name="ATSpectrograph_salCommander_stopAllAxes.vi" Type="VI" URL="../VIs/ATSpectrograph_salCommander_stopAllAxes.vi"/>
 	<Item Name="ATSpectrograph_salEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_appliedSettingsMatchStart.vi"/>
-	<Item Name="ATSpectrograph_salEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_detailedState.vi"/>
 	<Item Name="ATSpectrograph_salEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_salEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_salEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_filterInPosition.vi"/>
