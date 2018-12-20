@@ -11,6 +11,7 @@
 		<Item Name="FilterPosition.ctl" Type="VI" URL="../DataTypes/FilterPosition.ctl"/>
 		<Item Name="FwState.ctl" Type="VI" URL="../DataTypes/FwState.ctl"/>
 		<Item Name="GwState.ctl" Type="VI" URL="../DataTypes/GwState.ctl"/>
+		<Item Name="LsState.ctl" Type="VI" URL="../DataTypes/LsState.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
 		<Item Name="command_abort.ctl" Type="VI" URL="../DataTypes/command_abort.ctl"/>
@@ -39,9 +40,11 @@
 		<Item Name="logevent_internalCommand.ctl" Type="VI" URL="../DataTypes/logevent_internalCommand.ctl"/>
 		<Item Name="logevent_linearStageInPosition.ctl" Type="VI" URL="../DataTypes/logevent_linearStageInPosition.ctl"/>
 		<Item Name="logevent_loopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_loopTimeOutOfRange.ctl"/>
+		<Item Name="logevent_lsState.ctl" Type="VI" URL="../DataTypes/logevent_lsState.ctl"/>
 		<Item Name="logevent_rejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_rejectedCommand.ctl"/>
 		<Item Name="logevent_reportedDisperserPosition.ctl" Type="VI" URL="../DataTypes/logevent_reportedDisperserPosition.ctl"/>
 		<Item Name="logevent_reportedFilterPosition.ctl" Type="VI" URL="../DataTypes/logevent_reportedFilterPosition.ctl"/>
+		<Item Name="logevent_reportedLinearStagePosition.ctl" Type="VI" URL="../DataTypes/logevent_reportedLinearStagePosition.ctl"/>
 		<Item Name="logevent_settingVersions.ctl" Type="VI" URL="../DataTypes/logevent_settingVersions.ctl"/>
 		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
 		<Item Name="logevent_timeout.ctl" Type="VI" URL="../DataTypes/logevent_timeout.ctl"/>
@@ -116,9 +119,11 @@
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_cancelCallback_logEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_cancelCallback_logEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_cancelCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_cancelCallback_logEvent_timeout.vi"/>
@@ -136,9 +141,11 @@
 	<Item Name="ATSpectrograph_flushSamplesEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_flushSamplesEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_flushSamplesEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_flushSamplesEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_flushSamplesEvent_timeout.vi"/>
@@ -154,9 +161,11 @@
 	<Item Name="ATSpectrograph_getEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_getEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_getEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_getEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_getEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_getEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_getEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_getEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_getEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_getEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_getEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_getEvent_timeout.vi"/>
@@ -201,9 +210,11 @@
 	<Item Name="ATSpectrograph_logEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_logEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_logEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_logEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_logEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_logEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_timeout.vi"/>
@@ -262,9 +273,11 @@
 	<Item Name="ATSpectrograph_registerCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_registerCallback_logEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_registerCallback_logEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_registerCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_registerCallback_logEvent_timeout.vi"/>
@@ -294,9 +307,11 @@
 	<Item Name="ATSpectrograph_salEvent_internalCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_internalCommand.vi"/>
 	<Item Name="ATSpectrograph_salEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_linearStageInPosition.vi"/>
 	<Item Name="ATSpectrograph_salEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_loopTimeOutOfRange.vi"/>
+	<Item Name="ATSpectrograph_salEvent_lsState.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_lsState.vi"/>
 	<Item Name="ATSpectrograph_salEvent_rejectedCommand.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_rejectedCommand.vi"/>
 	<Item Name="ATSpectrograph_salEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_reportedDisperserPosition.vi"/>
 	<Item Name="ATSpectrograph_salEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_reportedFilterPosition.vi"/>
+	<Item Name="ATSpectrograph_salEvent_reportedLinearStagePosition.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_reportedLinearStagePosition.vi"/>
 	<Item Name="ATSpectrograph_salEvent_settingVersions.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_settingVersions.vi"/>
 	<Item Name="ATSpectrograph_salEvent_summaryState.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_summaryState.vi"/>
 	<Item Name="ATSpectrograph_salEvent_timeout.vi" Type="VI" URL="../VIs/ATSpectrograph_salEvent_timeout.vi"/>
