@@ -3,6 +3,7 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+I!!!*Q(C=\:9R&lt;BMR%%7`AQ"*&amp;_A'FC,!"ZAL[!K[14!(W%;NCR1K8"E'AKE#O.1&amp;6#B!3D&gt;4K&gt;=66!61O8F,5&lt;)+;Z5!$J$#QRVK_9==PC7JR5L&amp;0ELPV6YS^&gt;G/_(D=NO.^V@U?+[\&gt;OIOXSW7\0&amp;4,9]8V7/*&amp;[9O8&amp;H9G`F*__C_@]\?(`#6*7^IH]8/W@`\G]&lt;SN_Z_`W@-V4&gt;M=KO:9=?X(&amp;[5P8FL9G@B,_?H@0/&gt;P$`F,EL;U4_,H&lt;0`]Z_/8RL`&amp;8S/_[T^`OX7@`=H@_`:CJX^MUJ7[&amp;R'??/#/G\J1G_C*HOC*HOC*(OC"(OC"(OC"\OC/\OC/\OC/&lt;OC'&lt;OC'&lt;OC'8AK[U)5O&gt;&amp;9FG4S:+%G;*%A[A[+E3HA3HI1HY;'JB#@B38A3HI3(,EJY%J[%*_&amp;*?"CGB#@B38A3HI3(6)5E3U'(*_%BP1+?A#@A#8A#(K:5Q"-!"*-&amp;C9-E9#A)"D="4]!4](#LA#@A#8A#HI#(M!+?A#@A#8A#(I;569F#UR6U?%ADB]@B=8A=(I?(V(*Y("[(R_&amp;R?*B/$I`$YU!Y%TL*1:!TS/HA."Q?BY=@/4Q/D]0D]$A]B-I/?6G:DK9L[0!90!;0Q70Q'$SEE-&amp;D]"A]"I`"1VI:0!;0Q70Q'$R-*90(Y$&amp;Y$""D5K;8E=Q9;(1S")/(KZQ7+\M5B=2+E?LB64W5KI&gt;.^2#J(A\646@&gt;4.6.5FV]V56683T626"^/&amp;6I62D6361(&gt;RWVJ&gt;\A+XS"T`%:0M5H_!A@&gt;%.@O?.WO^6GM^&amp;KN&gt;*CM&gt;"]0N&gt;M.N.U/N6E-N&amp;I..*A-$B_4FR4^H:V?#`&gt;=H`X:@DZ`G&amp;Y-]?``BL?X$^=0^V^_`&amp;%\..X_P4&amp;]1^`YVW_H]@XUP`Q&lt;N1\N3?@9;T2&lt;[*^^&gt;Y!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name=".ctl" Type="VI" URL="../DataTypes/.ctl"/>
 		<Item Name="Disperser.ctl" Type="VI" URL="../DataTypes/Disperser.ctl"/>
@@ -199,8 +200,8 @@
 	<Item Name="ATSpectrograph_issueCommand_standby.vi" Type="VI" URL="../VIs/ATSpectrograph_issueCommand_standby.vi"/>
 	<Item Name="ATSpectrograph_issueCommand_start.vi" Type="VI" URL="../VIs/ATSpectrograph_issueCommand_start.vi"/>
 	<Item Name="ATSpectrograph_issueCommand_stopAllAxes.vi" Type="VI" URL="../VIs/ATSpectrograph_issueCommand_stopAllAxes.vi"/>
-	<Item Name="ATSpectrograph_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="ATSpectrograph_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_detailedState.vi"/>
+	<Item Name="ATSpectrograph_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="ATSpectrograph_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_disperserInPosition.vi"/>
 	<Item Name="ATSpectrograph_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_errorCode.vi"/>
 	<Item Name="ATSpectrograph_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/ATSpectrograph_logEvent_filterInPosition.vi"/>
